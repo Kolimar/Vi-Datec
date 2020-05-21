@@ -69,6 +69,7 @@ export class MoviesComponent implements OnInit {
               title: `Se editó correctamente el registro `
             })
           }
+          this.getAllMovies();
         })
       }
 
