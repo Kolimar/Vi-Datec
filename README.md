@@ -11,3 +11,6 @@ docker-compose up --build
 ```
 
 Ésto debería levantar 3 servicios, Angular puerto 4200, Docker puerto 3000 y MongoDB 27017 interconectados.
+
+
+ 
