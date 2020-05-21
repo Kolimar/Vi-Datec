@@ -1,0 +1,10 @@
+<div class="wrapper">
+    <div class="container">
+        <input type="file" name="file" ng2FileSelect [uploader]="uploader" accept=".csv" class="file-input-c" />
+        <button type="button" class="btn btn-success btn-s button-input-c"
+        (click)="uploader.uploadAll()" 
+        [disabled]="!uploader.getNotUploadedItems().length || csv_data.length === 0" >
+        Cargar CSV
+         </button>
+    </div>
+</div>
